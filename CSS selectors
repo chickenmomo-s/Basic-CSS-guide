@@ -1,0 +1,12 @@
+Using the style block, you can create a CSS selector for all the blocks you desire.
+For example, if you wanted all h2 elements to be red, you would add a style rule that looks like this:
+
+<style>
+  h2 {
+    color: red;
+  }
+</style>
+Note that it's important to have both opening and closing curly braces ({ and }) around each element's style rule(s). 
+  You also need to make sure that your element's style definition is between the opening and closing style tags. 
+    Finally, be sure to add a semicolon to the end of each of your element's style rules.
+
