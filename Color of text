@@ -1,0 +1,9 @@
+To change the color just change the style of your header element.
+
+The property that is responsible for the color of an element's text is the color style property.
+
+Here's how you would set your header element's text color to blue:
+
+<h1 style="color: blue;">CatPhotoApp</h1>
+
+Note that it is a good practice to end inline style declarations with a ; .
