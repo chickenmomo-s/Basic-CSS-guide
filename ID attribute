@@ -1,0 +1,10 @@
+In addition to classes, each HTML element can also have an id attribute.
+
+There are several benefits to using id attributes: You can use an id to style a single element,
+  and you can use them to select and modify specific elements with JavaScript.
+
+id attributes should be unique. Browsers won't enforce this, but it is a widely agreed upon best practice. So please don't give more than one element the same id attribute.
+
+Here's an example of how to write an id attribute:
+
+<h1 id="wrtie-an-unique-name"> </h1>
