@@ -1,0 +1,18 @@
+One cool thing about id attributes is that, like classes, you can style them using CSS.
+
+Important notes-
+1.  An id is not reusable and should only be applied to one element.
+2.  An id also has a higher specificity (importance) than a class so if both are applied to the same element and have conflicting styles, the styles of the id will be applied.
+
+Here's an example of how you can take your element with the id attribute and give it the background color of green
+
+Write this in your style block:
+
+#name-of-id {
+  background-color: green;
+}
+
+Note that inside your style element,
+  You always reference classes by putting a . in front of their names.
+  You always reference ids by putting a # in front of their names.
+
