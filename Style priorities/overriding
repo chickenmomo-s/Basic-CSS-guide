@@ -1,0 +1,10 @@
+Sometimes your HTML elements will receive multiple styles that conflict with one another.
+
+For example, your h1 element can't be both green and pink at the same time.
+
+If you create a class to color a particular element, then the color prescirbed in the class will override the color prescribed by the body element.
+
+In case two classes are created to apply color over the same element,
+  then the second declaration will always take precedence over the first. Because the second class is declared second, it overrides the attributes of the first class.
+  
+ Note: It doesn't matter which order the classes are listed in the HTML element.
