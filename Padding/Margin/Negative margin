@@ -1,0 +1,13 @@
+Three important properties control the space that surrounds each HTML element: padding, border, and margin.
+
+An element's padding controls the amount of space between the element's content and its border.
+
+exapmle - padding: 15px;
+
+An element's margin controls the amount of space between an element's border and surrounding elements.
+
+example - margin: 20px;
+
+If you set an element's margin to a negative value, the element will grow larger.
+
+example - margin: -15px;
