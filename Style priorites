@@ -1,0 +1,6 @@
+Sometimes your HTML elements will receive multiple styles that conflict with one another.
+
+For example, your h1 element can't be both green and pink at the same time.
+
+If you create a class to color a particular element, then the color prescirbed in the class will override the color prescribed by the body element.
+
