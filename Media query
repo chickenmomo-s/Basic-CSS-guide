@@ -1,0 +1,16 @@
+CSS Variables can simplify the way you use media queries.
+
+For instance, when your screen is smaller or larger than your media query break point, 
+  you can change the value of a variable, and it will apply its style wherever it is used.
+  
+Example- 
+@media (max-width: 350px) {
+    :root {
+      /* Only change code below this line */
+
+      /* Only change code above this line */
+    }
+  }
+  
+Change the values of certain elements in this root selector media query so that it redefined to a different value.
+  Then check your output.
