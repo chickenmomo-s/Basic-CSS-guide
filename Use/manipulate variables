@@ -1,0 +1,17 @@
+After you create your variable, you can assign its value to other CSS properties by referencing the name you gave it.
+
+background: var(--penguin-skin);
+This will change the background of whatever element you are targeting to gray because that is the value of the --penguin-skin variable.
+  Note that other styles in your code will not be applied unless the variable names are an exact match.
+
+When using your variable as a CSS property value, you can attach a fallback value that your browser will revert to if the given variable is invalid.
+
+Note: This fallback is not used to increase browser compatibility, and it will not work on IE browsers.
+  Rather, it is used so that the browser has a color to display if it cannot find your variable.
+
+Here's how you do it:
+
+background: var(--penguin-skin, black);
+
+This will set background to black if your variable wasn't set. Note that this can be useful for debugging.
+
